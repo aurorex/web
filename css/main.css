@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background-image{
+  background-image: url("../assets/imgs/marino.jpg");
+  background-repeat: repeat-y;
+  background-position: 50% 50%;
+}
+
+/* Styles for header*/
+header.fixed{
+ width: 90%;
+ position: fixed;
+ z-index: 1000;
+ background-color: #fff;
+ margin-top: 0;
+ margin-left: 5%;
+ border-radius: 10px;
+}
+
+nav{
+ position: absolute;
+ right: 5%;
+ top: 50%;
+ transform: translateY(-50%);
+}
+
+.inline-block{
+  display: inline;
+}
+
+figure.width img{
+  width: 20%;
+  margin-left: 5%;
+}
+
+
+ul.list-style li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+ul.text-decoration a{
+  text-decoration: none;
+  color: rgb(17,114,186);
+  font-weight: 700;
+}
