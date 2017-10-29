@@ -1,10 +1,11 @@
-<script>
+
 /**
  * Array con las imagenes y enlaces que se iran mostrando en la web
  */
 var imagenes=new Array(
-    ['assets/imgs/marino.jpg'],
-    ['assets/imgs/mar.jpg']
+    ['assets/imgs/plato-1.jpg'],
+    ['assets/imgs/plato-2.jpg'],
+    ['assets/imgs/plato-3.jpg']
 );
 
 /**
@@ -17,7 +18,6 @@ function rotarImagenes()
 
     // cambiamos la imagen y la url
     document.getElementById("imagen").src=imagenes[index][0];
-    document.getElementById("link").href=imagenes[index][1];
 }
 
 /**
@@ -31,4 +31,3 @@ onload=function()
     // Indicamos que cada 5 segundos cambie la imagen
     setInterval(rotarImagenes,5000);
 }
-</script>

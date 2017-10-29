@@ -1,7 +1,16 @@
+/*Resetear*/
 *{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .background-image{
@@ -10,21 +19,30 @@
   background-position: 50% 50%;
 }
 
+/*Clases reutilizables*/
+.inline-block{
+  display: inline;
+}
+
+.width{
+  width: 90%;
+  margin-left: 5%;
+}
+
 /* Styles for header*/
 header.fixed{
- width: 90%;
  position: fixed;
  z-index: 1000;
  background-color: #fff;
  margin-top: 0;
- margin-left: 5%;
  border-radius: 10px;
 }
 
-nav{
+nav.box-header{
+ width: 100%;
  position: absolute;
- right: 5%;
  top: 50%;
+ left: 40%;
  transform: translateY(-50%);
 }
 
@@ -33,20 +51,37 @@ nav{
 }
 
 figure.width img{
-  width: 20%;
+  width: 19%;
   margin-left: 5%;
+  margin-top: 0.5%;
 }
 
 
 ul.list-style li{
   list-style: none;
-  display: inline-block;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-right: 5%;
 }
 
 ul.text-decoration a{
   text-decoration: none;
   color: rgb(17,114,186);
   font-weight: 700;
+  font-size: 100%;
+}
+
+/*Styles of body*/
+/*First section*/
+
+#first-section{
+  position: relative;
+  top: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#images-carousel img#imagen{
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
