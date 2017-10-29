@@ -12,7 +12,6 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 .background-image{
   background-image: url("../assets/imgs/marino.jpg");
   background-repeat: repeat-y;
@@ -23,7 +22,6 @@
 .inline-block{
   display: inline;
 }
-
 .width{
   width: 90%;
   margin-left: 5%;
@@ -37,7 +35,6 @@ header.fixed{
  margin-top: 0;
  border-radius: 10px;
 }
-
 nav.box-header{
  width: 100%;
  position: absolute;
@@ -45,23 +42,18 @@ nav.box-header{
  left: 40%;
  transform: translateY(-50%);
 }
-
 .inline-block{
   display: inline;
 }
-
 figure.width img{
   width: 19%;
   margin-left: 5%;
   margin-top: 0.5%;
 }
-
-
 ul.list-style li{
   list-style: none;
   margin-right: 5%;
 }
-
 ul.text-decoration a{
   text-decoration: none;
   color: rgb(17,114,186);
@@ -71,15 +63,12 @@ ul.text-decoration a{
 
 /*Styles of body*/
 /*First section*/
-
 #first-section{
   position: relative;
   top: 100px;
   background-repeat: no-repeat;
   background-position: center;
-
 }
-
 #images-carousel img#imagen{
   max-width: 100%;
   object-fit: cover;
